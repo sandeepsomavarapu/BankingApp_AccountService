@@ -26,6 +26,7 @@ public class AccountController {
 	public String saveAccount(@RequestBody Account account) {
 		System.out.println("welcome");
 		System.out.println("testing.......");
+		System.out.println("testing1.......");
 		return service.createAccount(account);
 	}
 
