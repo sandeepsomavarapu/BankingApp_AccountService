@@ -25,6 +25,7 @@ public class AccountController {
 	@PostMapping("/create")
 	public String saveAccount(@RequestBody Account account) {
 		System.out.println("welcome");
+		System.out.println("testing.......");
 		return service.createAccount(account);
 	}
 
